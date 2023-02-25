@@ -1,6 +1,7 @@
-package com.springboot.apii.controller;
+package com.springboot.api.controller;
 
-import com.springboot.apii.dto.MemberDto;
+import com.springboot.api.dto.MemberDto;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
@@ -34,6 +35,7 @@ public class GetController {
     }
 
     // http://localhost:8080/api/v1/get-api/request1?name=이름&email=이메일&org=소속
+    @ApiOperation(value="GET 메소드 예제", notes="@RequestParam을 활용한 GET Method")
     @GetMapping(value = "/request1")
     public String getRequestParam1(
             @RequestParam String name,
