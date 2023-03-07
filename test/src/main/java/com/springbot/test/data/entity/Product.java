@@ -1,4 +1,4 @@
-package com.springboot.test.data.entity;
+package com.springbot.test.data.entity;
 
 import lombok.*;
 

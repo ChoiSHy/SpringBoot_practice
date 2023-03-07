@@ -1,9 +1,9 @@
-package com.springboot.test.controller;
+package com.springbot.test.controller;
 
-import com.springboot.test.data.dto.ChangeProductNameDto;
-import com.springboot.test.data.dto.ProductDto;
-import com.springboot.test.data.dto.ProductResponseDto;
-import com.springboot.test.service.ProductService;
+import com.springbot.test.data.dto.ChangeProductNameDto;
+import com.springbot.test.data.dto.ProductDto;
+import com.springbot.test.data.dto.ProductResponseDto;
+import com.springbot.test.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

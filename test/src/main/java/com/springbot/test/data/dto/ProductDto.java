@@ -1,27 +1,14 @@
-package com.springboot.test.data.dto;
+package com.springbot.test.data.dto;
 
-public class ProductResponseDto {
-    private Long number;
+public class ProductDto {
     private String name;
     private int price;
     private int stock;
 
-    public ProductResponseDto() {
-    }
-
-    public ProductResponseDto(Long number, String name, int price, int stock) {
-        this.number = number;
+    public ProductDto(String name, int price, int stock) {
         this.name = name;
         this.price = price;
         this.stock = stock;
-    }
-
-    public Long getNumber() {
-        return number;
-    }
-
-    public void setNumber(Long number) {
-        this.number = number;
     }
 
     public String getName() {
@@ -47,5 +34,5 @@ public class ProductResponseDto {
     public void setStock(int stock) {
         this.stock = stock;
     }
-
 }
+

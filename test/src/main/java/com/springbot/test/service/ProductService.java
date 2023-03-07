@@ -1,7 +1,7 @@
-package com.springboot.test.service;
+package com.springbot.test.service;
 
-import com.springboot.test.data.dto.ProductDto;
-import com.springboot.test.data.dto.ProductResponseDto;
+import com.springbot.test.data.dto.ProductDto;
+import com.springbot.test.data.dto.ProductResponseDto;
 
 public interface ProductService {
     ProductResponseDto getProduct(Long number);

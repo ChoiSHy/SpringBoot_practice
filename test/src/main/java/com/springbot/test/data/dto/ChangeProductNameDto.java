@@ -1,4 +1,4 @@
-package com.springboot.test.data.dto;
+package com.springbot.test.data.dto;
 
 public class ChangeProductNameDto {
     private Long number;
