@@ -40,7 +40,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     List<Product> findByUpdatedAtNull();
     List<Product> findByUpdatedAtIsNull();
     List<Product> findByUpdatedAtNotNull();
-    List<Product> findByUpdatedAtIsnotNull();
+    List<Product> findByUpdatedAtIsNotNull();
 
     // True, False
     //Product findByIsActiveTrue();

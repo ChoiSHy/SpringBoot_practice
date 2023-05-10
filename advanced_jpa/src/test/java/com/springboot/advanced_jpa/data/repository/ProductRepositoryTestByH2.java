@@ -25,9 +25,10 @@ public class ProductRepositoryTestByH2 {
         // then
         assertEquals(product.getName(), savedProduct.getName());
         assertEquals(product.getPrice(),savedProduct.getPrice());
-        assertEquals(product.getStock(),savedProduct.getPrice());
+        assertEquals(product.getStock(),savedProduct.getStock());
     }
-    //@Test
+    @Test
+
     void selectTest(){
         // given
         Product product = new Product();
