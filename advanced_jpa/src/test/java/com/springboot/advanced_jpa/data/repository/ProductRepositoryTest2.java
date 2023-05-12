@@ -2,6 +2,8 @@ package com.springboot.advanced_jpa.data.repository;
 
 import com.springboot.advanced_jpa.data.entity.Product;
 import org.assertj.core.api.Assertions;
+import org.assertj.core.util.VisibleForTesting;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -54,6 +56,6 @@ public class ProductRepositoryTest2 {
 
         // then
         assertFalse(productRepository.findById(selectedProduct.getNumber()).isPresent());
-
     }
+
 }
